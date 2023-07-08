@@ -3,28 +3,25 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="styles/styles.css">
   <title>Frontend Mentor | Order summary card</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
-<body>
-  <div class="grid">
-    <div class="image-desktop"></div>
-    <div class="image-mobile"></div>
 
-    <div class="card-container">
-      <h1>Order Summary</h1>
-      <p>
-        You can now listen to millions of songs, audiobooks, and podcasts on any 
-        device anywhere you like!
-      </p>
+<body>
+  <main class="container">
+    <article class="card-container">
+      <div class="image-desktop"></div>
+      <div class="image-mobile"></div>
+
+      <figure class="card-description">
+        <h1>Order Summary</h1>
+        <p>
+          You can now listen to millions of songs, audiobooks, and podcasts on any 
+          device anywhere you like!
+        </p>
+      </figure>
+      
 
       <div class="annual-plan-container">
         <div class="icon"></div>
@@ -39,8 +36,8 @@
 
       <a href="#" class="cancel-link">Cancel Order</a>
 
-    </div>
-  </div>
+    </article>
+  </main>
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 

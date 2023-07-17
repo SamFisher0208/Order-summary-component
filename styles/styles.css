@@ -20,14 +20,14 @@
     font-family: 'Red Hat Display', sans-serif;
 }
 
-html,
 body {
-    max-width: 120rem;
+    display: grid;
+    min-height: 100vh;
+    place-items: center;
     background-color: var(--pale-blue);
     background-image: url(/images/pattern-background-desktop.svg);
-    background-repeat: no-repeat;
     background-size: contain;
-    background-position: top;
+    background-repeat: no-repeat;
 }
 
 .container {
@@ -36,8 +36,9 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin: 0.3rem auto;
+    margin: 1rem auto;
     width: 450px;
+    
 }
 
 .image-desktop {
@@ -144,5 +145,7 @@ body {
     color: var(--dark-blue);
 }
 
-.attribution { font-size: 11px; text-align: center; }
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
 .attribution a { color: hsl(228, 45%, 44%); }
